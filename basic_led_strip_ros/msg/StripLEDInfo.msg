@@ -1,0 +1,8 @@
+Header header
+int16 led_number 
+uint8 red
+uint8 green
+uint8 blue
+bool success
+string message
+

@@ -1,0 +1,8 @@
+<launch>
+   <!-- edited from willdickson and f-ponce's virtual_desert dependencies -->
+   <include file="$(find basic_led_strip_ros)/launch/basic_led_strip.launch" />
+   <include file="$(find spinnaker_camera_driver)/launch/camera.launch" />
+    <node pkg="magno_test" name="MagnoTestNode" type="magno_test_node.py" />
+    <node pkg="magno_test" name="AngleToLedNode" type="angle_to_led_node.py" />
+   <!-- <include file = "" /> -->
+</launch>
