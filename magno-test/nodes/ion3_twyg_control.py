@@ -81,9 +81,9 @@ class ImageConverter:
         cv2.namedWindow('contour image')
         cv2.namedWindow('rotated image')
 
-        cv2.moveWindow('raw image', 100, 100)
-        cv2.moveWindow('contour image', 700, 110)
-        cv2.moveWindow('rotated image', 1200, 120)
+        cv2.moveWindow('raw image', 800, 100)
+        cv2.moveWindow('contour image', 1300, 1000)
+        cv2.moveWindow('rotated image', 2350, 100)
     print('finish')
 
     def clean_up(self):
